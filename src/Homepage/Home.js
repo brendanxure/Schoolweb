@@ -7,16 +7,17 @@ import Header from './component/Header'
 import Nav from './component/Nav'
 import Testimonial from './component/Testimonial'
 
-const Home = () => {
+const Home = ({background}) => {
+    
   return (
-    <div>
+    <div className='Home'>
         <Nav />
         <Header />
         <Categories />
         <Courses />
         <FAQ />
         <Testimonial />
-        <Footer />
+        <Footer background='Footercont'/>
     </div>
   )
 }

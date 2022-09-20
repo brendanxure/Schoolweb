@@ -4,13 +4,13 @@ import {FaInstagramSquare} from 'react-icons/fa'
 import {BsTwitter} from 'react-icons/bs'
 import {FaLinkedinIn} from 'react-icons/fa'
 
-const Footer = () => {
+const Footer = ({background}) => {
+    
   return (
-    <div className='Footercont'>
+    <div className={background}>
         <div className='Footerhome' id='Footer'>
             <section className='bxfoot'>
                 <h3>BRENDAN XURE</h3>
-                <p>Lorem ipsum dolor sit amet. Et velit iure aut laboriosam error et accusantium</p>
             </section>
             <section>
                 <h3>Permalinks</h3>
