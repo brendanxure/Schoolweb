@@ -6,7 +6,7 @@ import Team from './Components/Team'
 
 const About = () => {
   return (
-    <div className='About'>
+    <div className='About' id='#'>
         <Nav />
         <Achievement />
         <Team />

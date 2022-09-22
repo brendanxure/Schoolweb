@@ -26,7 +26,7 @@ const Achievement = () => {
         },
     ])
   return (
-    <div className='Achievement1'>
+    <div className='Achievement1' id='#'>
         <div className='Achievement'>
             <div>
                 <img src={aboutachievement} />
