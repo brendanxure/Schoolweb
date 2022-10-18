@@ -1,5 +1,6 @@
 import {Route, Routes, useNavigate} from 'react-router-dom'
 import About from './Aboutpage/About';
+import Courses from './Coursespage/Courses';
 import Home from './Homepage/Home';
 
 function App() {
@@ -12,6 +13,7 @@ const background = ''
       <Routes>
         <Route path='/' element={<Home background={background} />}  />
         <Route path='about' element={<About />}  />
+        <Route path='courses' element={<Courses />}  />
       </Routes>
     </div>
   );

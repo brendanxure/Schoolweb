@@ -32,7 +32,7 @@ const Nav = () => {
             <ul>
                 <ol><Link to='/'><a href='' target='_blank'>Home</a></Link></ol>
                 <ol><Link to='/about'><a href='' target='_blank'>About</a></Link></ol>
-                <ol><a href='#' target='_blank'>Courses</a></ol>
+                <ol><Link to='/courses'><a href='#' target='_blank'>Courses</a></Link></ol>
                 <ol><a href='#' target='_blank'>Contact</a></ol>
             </ul> : null
             }

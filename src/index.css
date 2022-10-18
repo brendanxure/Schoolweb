@@ -335,6 +335,7 @@ a {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-top: 2rem;
+  transition: all 400ms ease;
 }
 .Eachfaq {
   background: rgb(117, 73, 219);
@@ -344,6 +345,8 @@ a {
   height: fit-content;
   transition: all 4000ms ease;
   user-select: none;
+  position: relative;
+  overflow: hidden;
 }
 .Eachfaq section {
   display: flex;
@@ -357,10 +360,14 @@ a {
   margin-top: 1rem;
 }
 .Dis {
-  display: none;
+  position: absolute;
+  top: -1000%;
 }
 .DisplayFAQ {
   display: grid;
+  position: relative;
+  bottom: 50%;
+  transition: all 400ms ease;
 }
 @media screen and (max-width: 1114px) {
   .FAQs {
@@ -628,4 +635,9 @@ a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+/* ---------------Coursespage---------------------- */
+#Coursepage{
+  padding-top: 10rem;
 }
